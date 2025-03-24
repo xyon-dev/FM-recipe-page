@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./recipe-page-main/assets/images/favicon-32x32.png">
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fonts -->
+   <!-- Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Young Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <!-- Site title -->
+  <title>Frontend Mentor | Recipe page</title>
+</head>
+<body>
+  <main class="recipe">
+    <article class="recipe-card">
+      <img src="recipe-page-main/assets/images/image-omelette.jpeg" alt="" class="recipe-card-hero">
+      <section class="recipe-card-title-section">
+        <h1 class="recipe-card-title young-serif-regular">
+          Simple Omelette Recipe
+        </h1>
+        <p class="recipe-card-summary outfit-400">
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.        
+        </p>
+      </section>
+      <aside class="recipe-prep-aside outfit-400">
+        <p class="recipe-prep-label">
+          Preperation time
+        </p>
+        <ul>
+          <li class="recipe-prep-item">
+            <p class="recipe-prep-item-discription">
+              <span class="recipe-prep-item-label">total:</span>
+              Approximately 10 minutes  
+            </p>
+          </li>
+          <li class="recipe-prep-item">
+            <p class="recipe-prep-item-discription">
+              <span class="recipe-prep-item-label">preparation:</span>
+              5 minutes  
+            </p>
+          </li>
+          <li class="recipe-prep-item">
+            <p class="recipe-prep-item-discription">
+              <span class="recipe-prep-item-label">Cooking:</span>
+              5 minutes  
+            </p>
+          </li>
+        </ul>
+      </aside>
+      <section class="recipe-card-bulleted-list-section">
+        <h2 class="recipe-card-section-title">
+          Ingredients
+        </h2>
+        <ul class="recipe-card-bulleted-list">
+          <li class="recipe-card-bulleted-list-item">
+            2-3 large eggs
+          </li>
+          <li class="recipe-card-bulleted-list-item">
+            Salt, to taste
+          </li>
+          <li class="recipe-card-bulleted-list-item">
+            Pepper, to taste
+          </li>
+          <li class="recipe-card-bulleted-list-item">
+            1 tablespoon of butter or oil
+          </li>
+          <li class="recipe-card-bulleted-list-item">
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul>
+      </section>
+      <section class="recipe-card-ordered-list-section">
+        <h2 class="recipe-card-section-title">
+          Instructions
+        </h2>
+        <ol class="recipe-card-ordered-list">
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Beat the eggs: </span>
+            In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+            You can add a tablespoon of water or milk for a fluffier texture.
+          </li>
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Heat the pan: </span>
+            Place a non-stick frying pan over medium heat and add butter or oil.
+          </li>
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Cook the omelette: </span>
+            Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+            the eggs evenly coat the surface.
+          </li>
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Add fillings (optional): </span>
+            When the eggs begin to set at the edges but are still slightly runny in the 
+            middle, sprinkle your chosen fillings over one half of the omelette.
+          </li>
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Fold and serve: </span>
+            As the omelette continues to cook, carefully lift one edge and fold it over the 
+            fillings. Let it cook for another minute, then slide it onto a plate.
+          </li>
+          <li class="recipe-card-ordered-list-item">
+            <span class="recipe-card-ordered-list-item-label">Enjoy: </span>
+            Serve hot, with additional salt and pepper if needed.
+          </li>
+        </ol>
+      </section>
+      <section class="recipe-card-two-col-table-section">
+        <h2 class="recipe-card-section-title">
+          Nutrition
+        </h2>
+        <p class="recipe-card-summary outfit-400">
+          The table below shows nutritional values per serving without the additional fillings.
+        </p>
+        <table class="two-col-underlined-rows-table">
+          <tr class="two-col-underlined-row outfit-400">
+            <td class="table-cell">Calories</td>
+            <td class="brown-800">277kcal</td>
+          </tr>
+          <tr class="two-col-underlined-row outfit-400">
+            <td class="table-cell">Carbs</td>
+            <td class="brown-800">0g</td>
+          </tr>
+          <tr class="two-col-underlined-row outfit-400">
+            <td class="table-cell">Protein</td>
+            <td class="brown-800">20g</td>
+          </tr>
+          <tr class="two-col-underlined-row outfit-400">
+            <td class="table-cell">Fat</td>
+            <td class="brown-800">22g</td>
+          </tr>
+        </table>
+      </section>
+    </article>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+</html>

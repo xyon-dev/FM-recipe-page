@@ -1,0 +1,185 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+  }
+  /* Fonts */
+  .young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .outfit-600 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* Element styles */
+  body{
+    background-color: var(--Stone-100);
+    color: var(--Stone-600);
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  /* General Styles */
+  .brown-800{
+    color: var(--Brown-800);
+    font-weight: 800;
+  }
+  .recipe{
+      background-color: var(--White);
+      border-radius: 10px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      padding: 10px;
+      max-width: 680px;
+  }
+  .recipe-card{
+    border-radius: 10px;
+    display: flex;
+    max-width: 630px;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px 0;
+  }
+  .recipe-card-hero{
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    width: 100%;
+  }
+  .recipe-card-section-title{
+    color: var(--Brown-800);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Attribution Footer */
+  .attribution {font-size: 11px;text-align: center;padding: 5px 0;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+  /* Title section */
+  .recipe-card-title-section{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+  }
+  .recipe-card-title{
+    color: var(--Stone-900);
+    font-size: 40px;
+    margin: 20px 0; 
+    /* 11px; 10px; 9px; 8px; 6px; 5px; 3px; 1px; */
+  }
+  .recipe-card-summary{
+    color:var(--Stone-600);
+  }
+  /* Prep Aside */
+  .recipe-prep-aside{
+    background-color: var(--Rose-50);
+    border-radius: 10px;
+    color: var(--Brown-800);
+    margin-top: 10px;
+    padding: 0;
+  }
+  .recipe-prep-label{
+    color: var(--Rose-800);
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+  }
+
+  .recipe-prep-item{color:black;}
+  .recipe-prep-item::marker{
+    color: var(--Rose-800);
+    font-size: 12px;
+    /* padding-left: 1em; */
+  }
+  .recipe-prep-item-discription{
+    color: var(--Stone-600);
+    font-weight: 400;
+  }
+  .recipe-prep-item-label{
+    color: var(--Stone-600);
+    text-transform: capitalize;
+    font-weight: 700;
+  }
+  /* Bulleted list */
+  .recipe-card-bulleted-list-section{
+    border-bottom: 1px solid var(--Stone-150);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .recipe-card-bulleted-list{
+    padding-left: 20px;
+  }
+  .recipe-card-bulleted-list-item::marker{
+    color: var(--Brown-800);
+    font-size: 12px;
+    /* margin-right: 1em; */
+  }
+  .recipe-card-bulleted-list-item{
+    color:var(--Stone-600);
+    padding-left: 1em;
+  }
+  /* Ordered list */
+  .recipe-card-ordered-list{
+    border-bottom: 1px solid var(--Stone-150);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-bottom: 25px;
+  }
+  .recipe-card-ordered-list-item{
+    color:var(--Stone-600);
+    padding-left: 20px;
+  }
+  .recipe-card-ordered-list-item::marker{
+    color:var(--Brown-800);
+    font-weight: 700;
+  }
+  .recipe-card-ordered-list-item-label{
+    color:var(--Stone-600);
+    font-weight: 700;
+  }
+  /* Table styles */
+  .recipe-card-two-col-table-section{color:black;}
+  .two-col-underlined-rows-table{/* color:black; */border-collapse: collapse;width: 100%;}
+  .two-col-underlined-row{
+    border-bottom: 1px solid;
+    border-color: var(--Stone-150);
+    height: 2.5em;
+  }
+  .two-col-underlined-row:last-child{
+    border: 0;
+  }
+  .table-cell{
+    color:var(--Stone-600);
+    font-weight: 400;
+    padding-left: 30px;
+  }
